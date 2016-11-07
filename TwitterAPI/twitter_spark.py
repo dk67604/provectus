@@ -45,7 +45,7 @@ def tweetdata(tweet_info):
         tweet_data['UsrFavouriteCount'] = user_data.favourites_count
         tweet_data['Text'] = row_json.text
         tweet_data['Lang'] = row_json.lang
-        tweet_data['Usrname'] = temp[6]
+        tweet_data['Usrname'] = user_data.screen_name
         tweet_data['Usrid'] = user_data.id
         tweet_data['UsrLang'] = user_data.lang
         tweet_data['Usrlocation'] = user_data.location
